@@ -829,3 +829,152 @@ flex-direction: column;
         text-align: center;
     }
 }
+/*RESPONSIVE MOBILE*/
+@media (max-width:320px){
+    .bannerTextIndex h1{
+        font-size: 4rem;
+    }
+    p{
+        font-family:'Nunito Sans', sans-serif;
+        font-weight: light;
+        text-align: center;
+        margin-bottom: 1%;
+        font-size: 2rem;
+    }
+    header{
+        display:flex;
+        border: 1px solid #212121;
+        width:100%;
+        padding:1%;
+        background-color: #212121;
+        color:#FFF8EA;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1rem;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+    }
+    li a{
+        background-color: #212121;
+        color: #FFF8EA;
+        font-size: 1.5rem;
+        justify-content: space-around;
+        padding:0.5%;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+    }
+    .devis{
+        display: flex;
+        border: 1px solid #FFF8EA;
+        background-color: #212121;
+        color: #FFF8EA;
+        width: 105%;
+        align-items: center;
+        padding:1%;
+        font-size:1.5rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+    .bannerSub{
+        margin-top:4rem;
+        font-size: 1.5rem;
+        width: 100%;
+        padding:1% 3% 1% 3%;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: white;
+        color:#212121;
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+    .nosPrestationsIndex h3{
+        font-size: 4rem;
+        text-align: center;
+        font-family: 'Stick No Bills', sans-serif;
+        margin-top: 8rem;
+    }
+    .nosPrestationsIndex p{
+        font-size: 1.2rem;
+    }
+    .indexImg{
+        width: 100%;
+        height: 12rem;
+    }
+    .nosPrestionsIndexImg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0.5rem;
+        align-content: space-around;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .nosPrestationsIndexImg div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .buttonIndexPrestations{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        align-content: center;
+    }
+    .buttonIndexPrestations a{
+        grid-column:2/ 3;
+        color:#FFF8EA;
+        background-color:#BE5A5A;
+        width: 100%;
+        height: 3rem;
+        padding: 1%;
+        font-size:1.2rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        justify-content: center;
+        text-align: center;
+    }
+    .buttonIndexRealisations a{
+        margin-top: 2rem;
+        grid-column:2/ 3;
+        color:#FFF8EA;
+        background-color:#BE5A5A;
+        width: 100%;
+        height: 3rem;
+        padding: 1%;
+        font-size:1rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        justify-content: center;
+        text-align: center;
+    }
+    .besoinParticulierIndex p{
+        font-family:'Nunito Sans', sans-serif;
+        font-weight: light;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .buttonIndexDevis a{
+        grid-column:2/ 3;
+        color:#FFF8EA;
+        background-color:#BE5A5A;
+        width: 100%;
+        height: 3rem;
+        padding: 1%;
+        font-size:1rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        justify-content: center;
+        text-align: center;
+    }
+}
