@@ -798,6 +798,7 @@ flex-direction: column;
 }
 /*RESPONSIVE TABLET*/
 @media (max-width:768px){
+    /*pagina index*/
     p{
         font-family:'Nunito Sans', sans-serif;
         font-weight: light;
@@ -972,7 +973,7 @@ flex-direction: column;
 }
 /*RESPONSIVE MOBILE*/
 @media (max-width:320px){
-    /*pagina index*/
+/*pagina index*/
     .bannerTextIndex h1{
         font-size: 4rem;
     }
