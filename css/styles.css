@@ -135,13 +135,12 @@ p{
 }
 .bannerSub{
     margin-top:3rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     width: 100%;
     padding:1% 4% 1% 4%;
     font-family: 'Nunito Sans', sans-serif;
     background-color: white;
     color:#212121;
-    font-size: 2rem;
     align-items: center;
     text-align: center;
 }
@@ -217,10 +216,18 @@ p{
     color:#8B1A1A;
     font-size: 2rem;
 }
-.nosRealisationsIndex img{
+.carousel-inner img{
     width: 100%; 
     height: 40rem; 
     object-fit:cover;
+}
+.carousel-control-prev-icon:hover{
+    background-color: #BE5A5A;
+    padding: 2%;
+}
+.carousel-control-next-icon:hover{
+    background-color: #BE5A5A;
+    padding: 2%;
 }
 .buttonIndexRealisations{
     display: grid;
@@ -606,22 +613,20 @@ flex-direction: column;
     width:100%;
     background-image: url("../assets/img/clients/clients-cover.jpg");
     background-size: cover;
-    height: 50rem;
+    height: 50rem; 
 }
 .bannerClients div{
     background-image: url("../assets/img/clients/clients-cover.jpg");
     background-size: cover;
-    display: grid;
     width: 100%;
     height: 50rem;
     padding: 5%;
     background-position: center;
     text-align: left;
-    color: #FFF8EA;  
+    color: #FFF8EA;    
 }
 .bannerClients h1{
-    display: grid;
-    grid-row: 1/4;
+    display: flex;
     align-items: center;
     font-size: 5rem;
     font-family: 'Nunito Sans', sans-serif;
@@ -629,17 +634,15 @@ flex-direction: column;
     color:#FFF8EA;
 }
 .bannerClients a{
-    display: grid;
-    grid-row: 4/5;
+    flex-wrap: nowrap;
     border: 1px solid #FFF8EA;
+    padding:0.5rem;
     color: #FFF8EA;
-    width: 40%;
+    width: 20%;
     font-size:2rem;
     font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 .bannerClients a:hover{
     background-color: #212121;
@@ -962,6 +965,9 @@ flex-direction: column;
 .bannerClients a{
     font-size: 2rem;
     padding: 0%;
+}
+.clientsTitle{
+    font-size: 3rem;
 }
 }
 /*RESPONSIVE MOBILE*/
